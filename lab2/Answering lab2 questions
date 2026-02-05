@@ -1,0 +1,8 @@
+•	Is this a regression, classification, or clustering problem?
+This is a classification problem, the dataset includes categorical labels like 'Subscibtion Status', 'Category', and 'Gender'.
+
+•	Is there a target variable?
+Yes. In this dataset, the most common target variable is Subscription Status (a binary classification: "Yes" or "No").
+
+•	What is the model expected to learn or predict?
+The model is expected to learn the relationship between customer attributes (such as Age, Gender, Location, and Purchase Amount) and their shopping behavior. Specifically, it is expected to predict whether a customer is a subscriber or not.
