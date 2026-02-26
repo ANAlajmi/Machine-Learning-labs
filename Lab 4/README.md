@@ -1,3 +1,2 @@
-In this lab, I am cleaning and preparing the data before handing it over to the machine to study and understand. 
-I do this to prevent: incomplete data (missing values), noisy data (outliers or random errors), inconsistent data (wrong formats, mixed units).
-All of the work is based on the Customer Shopping Behavior Analysis dataset.
+In this lab session, we conducted a Data Quality Assessment on a dataset containing shopping behavior information. We began by preparing our environment with essential libraries and loading the dataset to view and analyze its structure and features. A key focus of the session was identifying and correcting data inconsistencies. 
+We then handled missing data and outliers, two critical steps for ensuring model reliability. To address noisy data, we utilized the IQR method to  detect outliers and visualized them through boxplots. After that, we explored data transformation techniques like Min-Max Normalization and Z-score Standardization. Finally, we reduced data dimensionality through PCA, where we showed the explained variance ratio in graphs and tables.
