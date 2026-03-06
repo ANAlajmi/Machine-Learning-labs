@@ -1,0 +1,14 @@
+Task 1: New Engineered Feature
+I created a new feature called Loyalty_Score by multiplying the number of times a customer has shopped before by their review rating. The reason for this is simple: a "happy" frequent shopper is the person most likely to sign up for a subscription. If someone shops a lot but gives low ratings, they probably won't subscribe. By combining these two pieces of information, we give the AI a clear "VIP score" to help it spot potential subscribers more easily.
+
+Task 2: Testing a Different "Peak" Rule
+Since we don't have exact shopping hours, I changed the "peak" rule to focus on how often people shop. I made a rule that labels anyone who shops Weekly or Bi-Weekly as a "Regular." When I did this, the model's performance improved. This is because subscriptions are all about habits. By grouping the most frequent shoppers together, the model doesn't get confused by minor differences and can clearly see the link between "regular shopping" and "having a subscription."
+
+Task 3: Changing the Number of Items (top_k)
+I tested how many specific items (like "Shirts" or "Shoes") the model should look at before grouping the rest into "Other."
+If we only look at 10 items, the model becomes too simple and misses details.
+If we look at 50 items, it gets overwhelmed by rare items that don't matter much.
+The Result: Keeping it around 25 items is the "sweet spot." It gives the model enough detail to be accurate without making it so complex that it starts making guesses based on "noise" or rare purchases.
+
+Task 4: Was Feature Selection Helpful?
+Yes, using feature selection was very helpful. In this dataset, some information—like the color of an item—doesn't really help predict if someone will pay for a subscription. By running feature selection, we told the AI to ignore the "useless" info and only focus on the important stuff like price and shopping frequency. This made the model faster and kept it from making mistakes based on unimportant details.
