@@ -1,1 +1,1 @@
-
+This project demonstrates the application of a Linear Regression machine learning model to analyze and predict outcomes using the E-commerce Customers dataset. The workflow encompasses the entire data science pipeline, including data exploration, preprocessing, and feature engineering. Finally, the regression model is trained, and its predictive performance is evaluated using standard metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
